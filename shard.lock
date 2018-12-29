@@ -1,0 +1,14 @@
+version: 1.0
+shards:
+  commander:
+    github: mrrooijen/commander
+    version: 0.3.3
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.5.1
+
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: 0.10.0
+
