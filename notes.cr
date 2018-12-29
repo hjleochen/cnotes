@@ -16,6 +16,7 @@ class Cnote
   end
 	
 	def add(content)
+		return if content.blank?
 		DB.open DB_NAME do |db|
 			db.exec "insert into notes(content) values (?)", content
 		end
